@@ -94,4 +94,11 @@ extension TrendingViewController: UITableViewDelegate, UITableViewDataSource {
         return UITableView.automaticDimension
     }
 
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if(indexPath.row == self.viewModel.trendingCellViewModels.count - 1) {
+            viewModel.pageIndex += 1
+            fetchRecentRepositories()
+        }
+    }
+
 }

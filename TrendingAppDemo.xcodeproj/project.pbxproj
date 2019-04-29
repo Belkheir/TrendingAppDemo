@@ -15,6 +15,9 @@
 		E5A588AD2276F28B009E7BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A588AC2276F28B009E7BC7 /* Assets.xcassets */; };
 		E5A588B02276F28B009E7BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A588AE2276F28B009E7BC7 /* LaunchScreen.storyboard */; };
 		E5A588BB2276F28B009E7BC7 /* TrendingAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588BA2276F28B009E7BC7 /* TrendingAppDemoTests.swift */; };
+		E5A588C72276F96A009E7BC7 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588C62276F96A009E7BC7 /* CustomTabBarController.swift */; };
+		E5A588C92276F9AF009E7BC7 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588C82276F9AF009E7BC7 /* TrendingViewController.swift */; };
+		E5A588CB2276F9BF009E7BC7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588CA2276F9BF009E7BC7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E5A588B62276F28B009E7BC7 /* TrendingAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendingAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A588BA2276F28B009E7BC7 /* TrendingAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingAppDemoTests.swift; sourceTree = "<group>"; };
 		E5A588BC2276F28B009E7BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A588C62276F96A009E7BC7 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		E5A588C82276F9AF009E7BC7 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		E5A588CA2276F9BF009E7BC7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,6 @@
 				DBC2CAA9152C8B0E9EF4BB1E /* Pods-TrendingAppDemoTests.debug.xcconfig */,
 				DD0721EE6B25399F2AE3D2DF /* Pods-TrendingAppDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,6 +115,7 @@
 		E5A588A42276F28A009E7BC7 /* TrendingAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E5A588C52276F92B009E7BC7 /* ViewControllers */,
 				E5A588A52276F28A009E7BC7 /* AppDelegate.swift */,
 				E5A588A72276F28A009E7BC7 /* ViewController.swift */,
 				E5A588A92276F28A009E7BC7 /* Main.storyboard */,
@@ -127,6 +133,16 @@
 				E5A588BC2276F28B009E7BC7 /* Info.plist */,
 			);
 			path = TrendingAppDemoTests;
+			sourceTree = "<group>";
+		};
+		E5A588C52276F92B009E7BC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5A588C62276F96A009E7BC7 /* CustomTabBarController.swift */,
+				E5A588C82276F9AF009E7BC7 /* TrendingViewController.swift */,
+				E5A588CA2276F9BF009E7BC7 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A588A82276F28A009E7BC7 /* ViewController.swift in Sources */,
+				E5A588C92276F9AF009E7BC7 /* TrendingViewController.swift in Sources */,
 				E5A588A62276F28A009E7BC7 /* AppDelegate.swift in Sources */,
+				E5A588CB2276F9BF009E7BC7 /* SettingsViewController.swift in Sources */,
+				E5A588C72276F96A009E7BC7 /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,7 +35,8 @@ class CustomTabBarController: UITabBarController {
     }
 
     let trendingViewController: TrendingViewController = {
-        let viewController = TrendingViewController()
+        let trendingViewModel = TrendingViewModel(networkingClient: NetworkingClient.sharedInstance)
+        let viewController = TrendingViewController(viewModel: trendingViewModel)
         viewController.title  = "Trending Repos"
         viewController.tabBarItem = UITabBarItem(title: PageType.trending.description, image: UIImage(named: "trending_icon"), selectedImage: nil)
 

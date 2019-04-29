@@ -30,6 +30,7 @@
 		E5A588E522770DA1009E7BC7 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E422770DA1009E7BC7 /* UIViewController+Additions.swift */; };
 		E5A588E8227710CE009E7BC7 /* TrendingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E7227710CE009E7BC7 /* TrendingCellViewModel.swift */; };
 		E5A588EA227710F8009E7BC7 /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */; };
+		E5A588ED2277356C009E7BC7 /* TrendingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588EC2277356C009E7BC7 /* TrendingViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		E5A588E422770DA1009E7BC7 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		E5A588E7227710CE009E7BC7 /* TrendingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCellViewModel.swift; sourceTree = "<group>"; };
 		E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
+		E5A588EC2277356C009E7BC7 /* TrendingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		E5A588A42276F28A009E7BC7 /* TrendingAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E5A588EB2277355F009E7BC7 /* Views */,
 				E5A588E6227710BA009E7BC7 /* ViewModels */,
 				E5A588DD22770CAE009E7BC7 /* Helper */,
 				E5A588D622770949009E7BC7 /* Models */,
@@ -219,6 +222,14 @@
 				E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E5A588EB2277355F009E7BC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A588EC2277356C009E7BC7 /* TrendingViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +420,7 @@
 				E5A588D2227708C6009E7BC7 /* Networking+Repository.swift in Sources */,
 				E5A588C92276F9AF009E7BC7 /* TrendingViewController.swift in Sources */,
 				E5A588CE227708AE009E7BC7 /* NetworkingClient.swift in Sources */,
+				E5A588ED2277356C009E7BC7 /* TrendingViewCell.swift in Sources */,
 				E5A588D0227708B8009E7BC7 /* NetworkingError.swift in Sources */,
 				E5A588A62276F28A009E7BC7 /* AppDelegate.swift in Sources */,
 				E5A588CB2276F9BF009E7BC7 /* SettingsViewController.swift in Sources */,

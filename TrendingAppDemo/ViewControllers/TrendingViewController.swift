@@ -10,8 +10,10 @@ import Foundation
 import UIKit
 
 class TrendingViewController: UIViewController {
+    let viewModel: TrendingViewModel
 
-    init() {
+    init(viewModel: TrendingViewModel) {
+        self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
 

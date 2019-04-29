@@ -28,6 +28,8 @@
 		E5A588E122770CE6009E7BC7 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E022770CE6009E7BC7 /* Double+Extensions.swift */; };
 		E5A588E322770D4E009E7BC7 /* UIAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E222770D4E009E7BC7 /* UIAlertHelper.swift */; };
 		E5A588E522770DA1009E7BC7 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E422770DA1009E7BC7 /* UIViewController+Additions.swift */; };
+		E5A588E8227710CE009E7BC7 /* TrendingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E7227710CE009E7BC7 /* TrendingCellViewModel.swift */; };
+		E5A588EA227710F8009E7BC7 /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		E5A588E022770CE6009E7BC7 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		E5A588E222770D4E009E7BC7 /* UIAlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertHelper.swift; sourceTree = "<group>"; };
 		E5A588E422770DA1009E7BC7 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E5A588E7227710CE009E7BC7 /* TrendingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCellViewModel.swift; sourceTree = "<group>"; };
+		E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		E5A588A42276F28A009E7BC7 /* TrendingAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E5A588E6227710BA009E7BC7 /* ViewModels */,
 				E5A588DD22770CAE009E7BC7 /* Helper */,
 				E5A588D622770949009E7BC7 /* Models */,
 				E5A588CC22770895009E7BC7 /* Services */,
@@ -205,6 +210,15 @@
 				E5A588E222770D4E009E7BC7 /* UIAlertHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		E5A588E6227710BA009E7BC7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5A588E7227710CE009E7BC7 /* TrendingCellViewModel.swift */,
+				E5A588E9227710F8009E7BC7 /* TrendingViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,7 +415,9 @@
 				E5A588D822770957009E7BC7 /* Repository.swift in Sources */,
 				E5A588E322770D4E009E7BC7 /* UIAlertHelper.swift in Sources */,
 				E5A588DA22770963009E7BC7 /* ReposPayload.swift in Sources */,
+				E5A588E8227710CE009E7BC7 /* TrendingCellViewModel.swift in Sources */,
 				E5A588C72276F96A009E7BC7 /* CustomTabBarController.swift in Sources */,
+				E5A588EA227710F8009E7BC7 /* TrendingViewModel.swift in Sources */,
 				E5A588D522770934009E7BC7 /* GitHubAPIServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

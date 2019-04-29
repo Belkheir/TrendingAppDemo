@@ -1,0 +1,34 @@
+PODS:
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ReactiveSwift (~> 3.0)
+  - SDWebImage
+  - SnapKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveSwift
+    - Result
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 29a40df11c702b8ca426c4c114b303a33326a934
+
+COCOAPODS: 1.6.1

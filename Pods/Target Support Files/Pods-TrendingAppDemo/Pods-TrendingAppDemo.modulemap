@@ -1,0 +1,6 @@
+framework module Pods_TrendingAppDemo {
+  umbrella header "Pods-TrendingAppDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

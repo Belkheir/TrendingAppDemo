@@ -1,0 +1,6 @@
+framework module Pods_TrendingAppDemoTests {
+  umbrella header "Pods-TrendingAppDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

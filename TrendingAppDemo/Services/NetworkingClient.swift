@@ -15,7 +15,7 @@ public class NetworkingClient {
 
     private init() {}
 
-    func performRequest(urlString: String, parameters: [String: String]?, completionHandler: @escaping NetworkingClientResult ) {
+    func performRequest(urlString: String, parameters: [String: String]?, completionHandler: @escaping NetworkingClientResult) {
         var finalURL: URL
         var networkingError: NetworkingError?
 

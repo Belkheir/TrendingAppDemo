@@ -15,7 +15,6 @@ class TrendingViewController: UIViewController {
 
     let viewModel: TrendingViewModel
     private let reuseIdentifier = "trendingCellIdentifier"
-    private var pageIndex: Int = 1
 
     init(viewModel: TrendingViewModel) {
         self.viewModel = viewModel
